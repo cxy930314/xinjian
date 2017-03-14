@@ -1,0 +1,609 @@
+	.kuangAn {
+		animation: kuang 1s linear 0s;
+		-webkit-animation: kuang 1s linear 0s;
+		-moz-animation: kuang 1s linear 0s;
+	}
+	
+	@-moz-keyframes kuang {
+		from {
+			transform: scale(0, 0)
+		}
+		to {
+			transform: scale(1, 1)
+		}
+	}
+	
+	@-webkit-keyframes kuang {
+		from {
+			transform: scale(0, 0)
+		}
+		to {
+			transform: scale(1, 1)
+		}
+	}
+	
+	@keyframes kuang {
+		from {
+			transform: scale(0, 0)
+		}
+		to {
+			transform: scale(1, 1)
+		}
+	}
+	
+	.huawenAn {
+		opacity: 0;
+		animation: huawenAn 0.5s linear 1s forwards;
+		-webkit-animation: huawenAn 0.5s linear 1.25s forwards;
+		-moz-animation: huawenAn 0.5s linear 1.25s forwards;
+	}
+	
+	@-moz-keyframes huawenAn {
+		from {
+			top: -68px;
+		}
+		to {
+			top: 18px;
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes huawenAn {
+		from {
+			top: -68px;
+		}
+		to {
+			top: 18px;
+			opacity: 1;
+		}
+	}
+	
+	@keyframes huawenAn {
+		from {
+			top: -68px;
+		}
+		to {
+			top: 18px;
+			opacity: 1;
+		}
+	}
+	
+	.naoAn {
+		opacity: 0;
+		animation: opcitys 0.5s linear 1.5s forwards;
+		-webkit-animation: opcitys 0.5s linear 1.5s forwards;
+		-moz-animation: opcitys 0.5s linear 1.5s forwards;
+	}
+	
+	.yuanAn {
+		opacity: 0;
+		animation: opcitys 0.5s linear 1.75s forwards;
+		-webkit-animation: opcitys 0.5s linear 1.75s forwards;
+		-moz-animation: opcitys 0.5s linear 1.75s forwards;
+	}
+	
+	.xiaoAn {
+		opacity: 0;
+		animation: opcitys 0.5s linear 2s forwards;
+		-webkit-animation: opcitys 0.5s linear 2s forwards;
+		-moz-animation: opcitys 0.5s linear 2s forwards;
+	}
+	
+	@-moz-keyframes opcitys {
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes opcitys {
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@keyframes opcitys {
+		to {
+			opacity: 1;
+		}
+	}
+	
+	.fishLAn {
+		opacity: 0;
+		animation: fishL 1s linear 2.25s forwards;
+		-webkit-animation: fishL 1s linear 2.25s forwards;
+		-moz-animation: fishL 1s linear 2.25s forwards;
+	}
+	
+	.fishRAn {
+		opacity: 0;
+		animation: fishR 1s linear 2.25s forwards;
+		-webkit-animation: fishR 1s linear 2.25s forwards;
+		-moz-animation: fishR 1s linear 2.25s forwards;
+	}
+	
+	.companyAn {
+		opacity: 0;
+		animation: companyAn 1s linear 2.25s forwards;
+		-webkit-animation: companyAn 1s linear 2.25s forwards;
+		-moz-animation: companyAn 1s linear 2.25s forwards;
+	}
+	
+	@-moz-keyframes fishL {
+		from {
+			left: -40px;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes fishL {
+		from {
+			left: -40px;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@keyframes fishL {
+		from {
+			left: -40px;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@-moz-keyframes fishR {
+		from {
+			right: -40px;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes fishR {
+		from {
+			right: -40px;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@keyframes fishR {
+		from {
+			right: -40px;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@-moz-keyframes companyAn {
+		from {
+			top: -20px;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes companyAn {
+		from {
+			top: -20px;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@keyframes companyAn {
+		from {
+			top: -20px;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	
+	.lineAn {
+		opacity: 0;
+		animation: lineAn 0.5s linear 3.25s forwards;
+		-webkit-animation: lineAn 0.5s linear 3.25s forwards;
+		-moz-animation: lineAn 0.5s linear 3.25s forwards;
+	}
+	
+	@-moz-keyframes lineAn {
+		from {
+			top: 100vh;
+		}
+		to {
+			top: 60vh;
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes lineAn {
+		from {
+			top: 100vh;
+		}
+		to {
+			top: 60vh;
+			opacity: 1;
+		}
+	}
+	
+	@keyframes lineAn {
+		from {
+			top: 100vh;
+		}
+		to {
+			top: 60vh;
+			opacity: 1;
+		}
+	}
+	
+	.dengAn {
+		opacity: 0;
+		-webkit-animation: dengAn 0.5s linear 3.25s forwards;
+		-moz-animation: dengAn 0.5s linear 3.25s forwards;
+	}
+	
+	@-moz-keyframes dengAn {
+		from {
+			top: -10vh;
+		}
+		to {
+			top: 0vh;
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes dengAn {
+		from {
+			top: -10vh;
+		}
+		to {
+			top: 0vh;
+			opacity: 1;
+		}
+	}
+	
+	@keyframes dengAn {
+		from {
+			top: -10vh;
+		}
+		to {
+			top: 0vh;
+			opacity: 1;
+		}
+	}
+	
+	.caiAn {
+		opacity: 0;
+		animation: caiAn 0.5s linear 3.75s forwards;
+		-webkit-animation: caiAn 0.5s linear 3.75s forwards;
+		-moz-animation: caiAn 0.5s linear 3.75s forwards;
+	}
+	
+	@-moz-keyframes caiAn {
+		from {
+			transform: rotateY(180deg);
+		}
+		to {
+			transform: rotateY(360deg);
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes caiAn {
+		from {
+			transform: rotateY(180deg);
+		}
+		to {
+			transform: rotateY(360deg);
+			opacity: 1;
+		}
+	}
+	
+	@keyframes caiAn {
+		from {
+			transform: rotateY(180deg);
+		}
+		to {
+			transform: rotateY(360deg);
+			opacity: 1;
+		}
+	}
+	
+	.buttonAn {
+		opacity: 0;
+		animation: buttonAn 0.5s linear 1s forwards;
+		-webkit-animation: buttonAn 0.5s linear 1.25s forwards;
+		-moz-animation: buttonAn 0.5s linear 1.25s forwards;
+	}
+	
+	@-moz-keyframes buttonAn {
+		from {
+			bottom: -68px;
+		}
+		to {
+			bottom: 20px;
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes buttonAn {
+		from {
+			bottom: -68px;
+		}
+		to {
+			bottom: 20px;
+			opacity: 1;
+		}
+	}
+	
+	@keyframes buttonAn {
+		from {
+			bottom: -68px;
+		}
+		to {
+			bottom: 20px;
+			opacity: 1;
+		}
+	}
+	
+	.startGameAn {
+		opacity: 0;
+		animation: startGameAn 0.5s linear 4.25s forwards;
+		-webkit-animation: startGameAn 0.5s linear 4.25s forwards;
+		-moz-animation: startGameAn 0.5s linear 4.25s forwards;
+	}
+	
+	@-moz-keyframes startGameAn {
+		from {
+			top: 30vh;
+		}
+		to {
+			top: 13vh;
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes startGameAn {
+		from {
+			top: 30vh;
+		}
+		to {
+			top: 13vh;
+			opacity: 1;
+		}
+	}
+	
+	@keyframes startGameAn {
+		from {
+			top: 30vh;
+		}
+		to {
+			top: 13vh;
+			opacity: 1;
+		}
+	}
+	
+	.lionLAn {
+		opacity: 0;
+		animation: lionLAn 2s linear 4.75s forwards infinite alternate-reverse;
+		-webkit-animation: lionLAn 2s linear 4.75s forwards infinite alternate-reverse;
+		-moz-animation: lionLAn 2s linear 4.75s forwards infinite alternate-reverse;
+	}
+	
+	@keyframes lionLAn {
+		0% {
+			opacity: 1;
+			left: 2vw;
+			transform: rotate(0deg);
+		}
+		40% {
+			left: 3vw;
+			transform: rotate(25deg);
+		}
+		60% {
+			left: 0vw;
+			transform: rotate(0deg);
+		}
+		80% {
+			left: -2vw;
+			transform: rotate(25deg);
+		}
+		100% {
+			left: 0vw;
+			transform: rotate(0deg);
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes lionLAn {
+		0% {
+			opacity: 1;
+			left: 2vw;
+			transform: rotate(0deg);
+		}
+		40% {
+			left: 3vw;
+			transform: rotate(25deg);
+		}
+		60% {
+			left: 0vw;
+			transform: rotate(0deg);
+		}
+		80% {
+			left: -2vw;
+			transform: rotate(25deg);
+		}
+		100% {
+			left: 0vw;
+			transform: rotate(0deg);
+			opacity: 1;
+		}
+	}
+	
+	@-moz-keyframes lionLAn {
+		0% {
+			opacity: 1;
+			left: 2vw;
+			transform: rotate(0deg);
+		}
+		40% {
+			left: 3vw;
+			transform: rotate(25deg);
+		}
+		60% {
+			left: 0vw;
+			transform: rotate(0deg);
+		}
+		80% {
+			left: -2vw;
+			transform: rotate(25deg);
+		}
+		100% {
+			left: 0vw;
+			transform: rotate(0deg);
+			opacity: 1;
+		}
+	}
+	
+	.lionRAn {
+		opacity: 0;
+		animation: lionRAn 2s linear 4.75s forwards infinite alternate-reverse;
+		-webkit-animation: lionRAn 2s linear 4.75s forwards infinite alternate-reverse;
+		-moz-animation: lionRAn 2s linear 4.75s forwards infinite alternate-reverse;
+	}
+	
+	@keyframes lionRAn {
+		0% {
+			opacity: 1;
+			right: 2vw;
+			transform: rotate(0deg);
+		}
+		40% {
+			right: 3vw;
+			transform: rotate(25deg);
+		}
+		60% {
+			right: 0vw;
+			transform: rotate(0deg);
+		}
+		80% {
+			right: -2vw;
+			transform: rotate(25deg);
+		}
+		100% {
+			right: 0vw;
+			transform: rotate(0deg);
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes lionRAn {
+		0% {
+			opacity: 1;
+			right: 2vw;
+			transform: rotate(0deg);
+		}
+		40% {
+			right: 3vw;
+			transform: rotate(25deg);
+		}
+		60% {
+			right: 0vw;
+			transform: rotate(0deg);
+		}
+		80% {
+			right: -2vw;
+			transform: rotate(25deg);
+		}
+		100% {
+			right: 0vw;
+			transform: rotate(0deg);
+			opacity: 1;
+		}
+	}
+	
+	@-moz-keyframes lionRAn {
+		0% {
+			opacity: 1;
+			right: 2vw;
+			transform: rotate(0deg);
+		}
+		40% {
+			right: 3vw;
+			transform: rotate(25deg);
+		}
+		60% {
+			right: 0vw;
+			transform: rotate(0deg);
+		}
+		80% {
+			right: -2vw;
+			transform: rotate(25deg);
+		}
+		100% {
+			right: 0vw;
+			transform: rotate(0deg);
+			opacity: 1;
+		}
+	}
+	
+	.sanFuAn {
+		opacity: 0;
+		animation: sanFuAn 0.5s linear 4.75s forwards infinite alternate-reverse;
+		-webkit-animation: sanFuAn 0.5s linear 4.75s forwards infinite alternate-reverse;
+		-moz-animation: sanFuAn 0.5s linear 4.75s forwards infinite alternate-reverse;
+	}
+	
+	@keyframes sanFuAn {
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes sanFuAn {
+		from {}
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@-moz-keyframes sanFuAn {
+		to {
+			opacity: 1;
+		}
+	}
+	
+	.readsAn {
+		opacity: 0;
+		animation: readsAn 0.5s linear 4.25s forwards;
+		-webkit-animation: readsAn 0.5s linear 4.25s forwards;
+		-moz-animation: readsAn 0.5s linear 4.25s forwards;
+	}
+	
+	@-moz-keyframes readsAn {
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@-webkit-keyframes readsAn {
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@keyframes readsAn {
+		to {
+			opacity: 1;
+		}
+	}

@@ -1,0 +1,333 @@
+	* {
+		padding: 0;
+		margin: 0;
+		overflow-x: hidden;
+	}
+	/*头部文件*/
+	
+	.header {
+		width: 100vw;
+		height: 40px;
+		background-color: black;
+	}
+	
+	.header h2 {
+		color: white;
+		text-align: center;
+		line-height: 40px;
+	}
+	/*头部结束*/
+	
+	.slideOneP {
+		width: 90vw;
+		height: 115px;
+		/*background-color: red;*/
+		margin: 0 auto;
+		border-bottom: 1px solid gray;
+	}
+	
+	.slideOneP h3 {
+		color: gray;
+		text-align: center;
+		line-height: 150px;
+	}
+	
+	.showColor {
+		background-color: rgb(230, 233, 238);
+	}
+	
+	.logo {
+		width: 70vw;
+		height: 70vw;
+		/*background-color: yellow;*/
+		margin: 10vh 15vw;
+		overflow: hidden;
+	}
+	
+	.logo img {
+		width: 100%;
+		height: 100%;
+		border-radius: 5px;
+	}
+	/*第一页里面的样式设置*/
+	
+	.slide1 {
+		width: 100vw;
+		position: relative;
+		background-image: url(../img/beijingSe.png);
+		overflow: hidden;
+	}
+	
+	.slide1 img {
+		width: 100%;
+	}
+	
+	.kuang {
+		width: 100vw;
+		position: absolute;
+		margin-top: -10px;
+	}
+	/*.backcolor {
+		position: absolute;
+		top: 10px;
+	}*/
+	
+	.sanFu {
+		width: 100vw;
+		height: 57vh;
+		position: absolute;
+		top: 20px;
+		overflow: hidden;
+	}
+	
+	.huawen {
+		width: 100vw;
+		height: 5vh;
+		position: absolute;
+		top: 18px;
+		overflow: hidden;
+	}
+	
+	.button {
+		width: 80vw;
+		position: absolute;
+		left: 10vw;
+		bottom: 25px;
+	}
+	
+	.fish {
+		width: 30vw;
+		height: 40vh;
+		position: absolute;
+		top: 40px;
+		overflow: hidden;
+	}
+	
+	.w {
+		width: 15vw;
+		height: 25vh;
+	}
+	
+	.fishimg {
+		width: 30vw;
+	}
+	
+	.fishLeft {
+		left: 20px;
+	}
+	
+	.fishRight {
+		right: 20px;
+	}
+	
+	.companyName {
+		width: 50vw;
+		height: 20vh;
+		position: absolute;
+		top: 20px;
+		left: 50%;
+		margin-left: -25vw;
+		overflow: hidden;
+	}
+	
+	.companyNamePic {
+		height: 10vh;
+		position: absolute;
+	}
+	
+	.showCname {
+		width: 100%;
+		position: absolute;
+		top: 8px;
+		text-align: center;
+	}
+	
+	.hights {
+		top: 30px;
+	}
+	/*鬧元宵*/
+	
+	.nyx {
+		width: 20vw;
+		height: 20vw;
+		position: absolute;
+		left: 50%;
+		margin-left: -12.5vw;
+		overflow: hidden;
+	}
+	
+	.nao {
+		top: 15vh;
+	}
+	
+	.yuan {
+		top: 30vh;
+	}
+	
+	.xiao {
+		top: 45vh;
+	}
+	
+	.nyx img {
+		width: 100%;
+	}
+	
+	.wrapDeng {
+		width: 100vw;
+		position: absolute;
+		top: 60vh;
+		overflow: visible;
+	}
+	
+	.line {
+		width: 100%;
+		height: 200px;
+		/*background-color: royalblue;*/
+		position: absolute;
+		top: 60vh;
+		border: 1px solid rgb(146, 31, 33);
+		overflow: visible;
+	}
+	
+	.deng {
+		width: 13vw;
+		/*height: 13vw;*/
+		position: absolute;
+	}
+	
+	.left {
+		left: 20px;
+	}
+	
+	.right {
+		right: 20px;
+	}
+	
+	.deng img {
+		width: 100%;
+	}
+	
+	.cai {
+		width: 50vw;
+		height: 20vh;
+		position: absolute;
+		left: 50%;
+		margin-left: -25vw;
+		overflow: hidden;
+	}
+	
+	.startGame {
+		width: 60vw;
+		min-height: 40px;
+		position: absolute;
+		left: 50%;
+		top: 13vh;
+		margin-left: -30vw;
+	}
+	
+	.startFont {
+		width: 60vw;
+		position: absolute;
+		top: 10px;
+		text-align: center;
+		color: rgb(235, 206, 110)
+	}
+	/*小狮子*/
+	
+	.lions {
+		width: 90vw;
+		height: 18vh;
+		position: absolute;
+		left: 5vw;
+		top: 42vh;
+		overflow: hidden;
+	}
+	
+	.lionsLeft {
+		width: 18vh;
+		height: 20vh;
+		position: absolute;
+		top: 2vh;
+	}
+	
+	.lionsRight {
+		right: 0px;
+	}
+	/*第二页*/
+	
+	.reads {
+		width: 40vw;
+		position: absolute;
+		left: 50%;
+		top: 80vh;
+		margin-left: -20vw;
+	}
+	
+	.readsFont {
+		width: 100%;
+		height: 20px;
+		position: absolute;
+		text-align: center;
+		line-height: 15px;
+		color: rgb(235, 206, 110)
+	}
+	
+	.slide2_title {
+		width: 80vw;
+		position: absolute;
+		left: 10vw;
+		top: 20px
+	}
+	
+	.slide2_title_detail {
+		width: 76vw;
+		height: 64vh;
+	 
+		position: absolute;
+		left: 12vw;
+		top: 20vh;
+		overflow: hidden;
+	}
+	
+	.slide_T_D_title {
+		width: 100%;
+		height: 35px;
+		position: absolute;
+		top: 0px;
+		line-height: 35px;
+		text-align: center;
+		overflow: hidden;
+	}
+	
+	.slide_T_D_tset {
+		color: rgb(244, 163, 133);
+		background-color: initial;
+		font-family: '微软雅黑';
+		font-size: 18px;
+	}
+	
+	.slide_T_D_detais {
+		width: 74%;
+		position: absolute;
+		top: 15%;
+		left: 13%;
+		line-height: 35px;
+		text-align: center;
+		
+	}
+	
+	.fontSet {
+		/*overflow: hidden;*/
+		display: block;
+		height: 20px;
+		color: rgb(172, 53, 39);
+		font-family: arial;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.h1{
+		top: 30%;
+	}
+	.h2{
+		top:40%
+	}
